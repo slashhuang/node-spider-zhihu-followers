@@ -4,4 +4,4 @@
  */
 
 require('babel-register');
-require('app/www.js');
+require('./app/www.js');
