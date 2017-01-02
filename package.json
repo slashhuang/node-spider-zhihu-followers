@@ -1,0 +1,32 @@
+{
+  "name": "node-spider-zhihu-followers",
+  "version": "1.0.0",
+  "description": "crawl zhihu followers data",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/nodemon --use_strict ./index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slashhuang/node-spider-zhihu-followers.git"
+  },
+  "keywords": [
+    "zhihu",
+    "node",
+    "crawler"
+  ],
+  "author": "slashhuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slashhuang/node-spider-zhihu-followers/issues"
+  },
+  "homepage": "https://github.com/slashhuang/node-spider-zhihu-followers#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "nodemon":"^1.11.0"
+  },
+  "devDependencies": {
+    "babel-register": "^6.18.0"
+  }
+}
